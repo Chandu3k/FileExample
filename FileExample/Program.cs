@@ -27,7 +27,7 @@ namespace FileExample
             str.Close();
             Console.WriteLine("Written to file successfully.");
 
-            FileStream f = new FileStream(@"D:\Email_Files\Ger.txt", FileMode.Open, FileAccess.Read);
+           // FileStream f = new FileStream(@"D:\Email_Files\Ger.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(@"D:\Email_Files\Ger.txt");
             string s = sr.ReadToEnd();
             sr.Close();
